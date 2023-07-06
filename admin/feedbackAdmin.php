@@ -39,7 +39,7 @@ if(isset($_SESSION['ms-sp'])){
     <header>
         <h1 class="header_heading">Trang quản lý</h1>
         <div class="header_right">
-            <a class="header_right-homepage header_right-a" href="../main/index.php">
+            <a class="header_right-homepage header_right-a" href="../index.php">
                 <i class="fa-solid fa-house-chimney"></i>
                 Trang chủ
             </a>
@@ -82,7 +82,7 @@ if(isset($_SESSION['ms-sp'])){
                         echo'
                             <div class="fb-question">
                             <span class="fb-time">Lúc '.$rowfb['NgayPH'].'</span>
-                            <a class="fb-delete" href="../main/supportHandle.php?did='.$rowfb['MaPH'].'&con=admin&uid='.$emailUser.'&un='.$_GET['un'].'">Xóa</a>
+                            <a class="fb-delete" href="../supportHandle.php?did='.$rowfb['MaPH'].'&con=admin&uid='.$emailUser.'&un='.$_GET['un'].'">Xóa</a>
                             <label class="fb-question-lbl ad-fb-question-lbl" for="">'.$_GET['un'].'</label>
                             <p>'.$rowfb['NoiDung'].'</p>
                             </div>';
@@ -99,7 +99,7 @@ if(isset($_SESSION['ms-sp'])){
                             }
                             else{
                                 echo'
-                                <form action="../main/supportHandle.php?fbid='.$rowfb['MaPH'].'&uid='.$emailUser.'&un='.$_GET['un'].'" method="post">
+                                <form action="../supportHandle.php?fbid='.$rowfb['MaPH'].'&uid='.$emailUser.'&un='.$_GET['un'].'" method="post">
                                     <textarea cols=63 rows=4 class="ad-fb-txta" name="ad_rep"></textarea>
                                     <input type="submit" class="ad-fb-btn" name="ad_send" value="Gửi">
                                 </form>';}}

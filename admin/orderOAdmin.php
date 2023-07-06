@@ -29,7 +29,7 @@ session_start();
     <header>
         <h1 class="header_heading">Trang quản lý</h1>
         <div class="header_right">
-            <a class="header_right-homepage header_right-a" href="../main/index.php">
+            <a class="header_right-homepage header_right-a" href="../index.php">
                 <i class="fa-solid fa-house-chimney"></i>
                 Trang chủ
             </a>
@@ -59,10 +59,10 @@ session_start();
                                 <th class="crud-user_column-name">Tổng tiền</th>
                                 <th class="crud-user_column-name">Trạng thái</th>
                                 <th class="crud-user_column-name a-crud">
-                                    <a class="a-crud-name" href="#">Sửa</a>
+                                    <a class="a-crud-name" href="#">Xử lý đơn</a>
                                 </th>
                                 <th class="crud-user_column-name a-crud">
-                                    <a class="a-crud-name" href="#">Xóa</a>
+                                    <a class="a-crud-name" href="#">Xem đơn</a>
                                 </th>
                             </tr>
                             <?php

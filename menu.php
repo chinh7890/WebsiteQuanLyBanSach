@@ -12,10 +12,10 @@
                         if(isset($_SESSION['role']) && $_SESSION['role']=="3"){
                             echo'
                             <li class="menu_item">
-                                <a class="menu_item-link" href="../bookManager/bookView.php">Sách</a>
+                                <a class="menu_item-link" href="bookManager/bookView.php">Sách</a>
                             </li>
                             <li class="menu_item">
-                                <a class="menu_item-link" href="../bkcategory/categoryView.php">Thể loại sách</a>
+                                <a class="menu_item-link" href="bkcategory/categoryView.php">Thể loại sách</a>
                             </li>
                             <li class="menu_item">
                                 <a class="menu_item-link" href="">Tác giả</a>
@@ -24,13 +24,13 @@
                                 <a class="menu_item-link" href="">Nhà phát hành</a>
                             </li>
                             <li class="menu_item">
-                                <a class="menu_item-link" href="">Danh mục sách</a>
+                                <a class="menu_item-link" href="">Danh mục loại sách</a>
                             </li>
                             <li class="menu_item">
-                                <a href="../admin/orderOAdmin.php" class="menu_item-link">Đơn hàng</a>
+                                <a href="admin/orderOAdmin.php" class="menu_item-link">Đơn hàng</a>
                             </li>
                             <li class="menu_item">
-                                <a href="../admin/feedbackAdmin.php" class="menu_item-link">Phản hồi</a>
+                                <a href="admin/feedbackAdmin.php" class="menu_item-link">Phản hồi</a>
                             </li>
                             <li class="menu_item menu_item-final"></li>                         
                             ';
@@ -54,7 +54,7 @@
                                 <a class="menu_item-link" href="">Nhà phát hành</a>
                             </li>
                             <li class="menu_item">
-                                <a class="menu_item-link" href="">Danh mục sách</a>
+                                <a class="menu_item-link" href="">Danh mục loại sách</a>
                             </li>
                             <li class="menu_item">
                                 <a href="../admin/orderOAdmin.php" class="menu_item-link">Đơn hàng</a>

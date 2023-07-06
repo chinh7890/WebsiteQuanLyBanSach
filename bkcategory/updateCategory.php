@@ -26,7 +26,7 @@
     <header>
         <h1 class="header_heading">Trang quản lý</h1>
         <div class="header_right">
-            <a class="header_right-homepage header_right-a" href="../main/index.php">
+            <a class="header_right-homepage header_right-a" href="../index.php">
                 <i class="fa-solid fa-house-chimney"></i>
                 Trang chủ
             </a>

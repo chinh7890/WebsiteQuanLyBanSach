@@ -22,7 +22,7 @@
                     <div class="Header_center">
                         <div class="Header_center-row">
                             <div class="Header_center_logo">
-                                <a href="../main/index.php">
+                                <a href="index.php">
                                     <h1 class="Header_center_logo-a">NotttBook</h1>
                                 </a>
                             </div>
@@ -83,7 +83,7 @@
                                                 echo '<span class="header_cart-amout">:(</span>';
                                             }
                                             ?>
-                                            <a href="../main/cart.php" class="Header_center_signiu-list-nocart-a">
+                                            <a href="cart.php" class="Header_center_signiu-list-nocart-a">
                                                 <i class="Header_cart-icon fa-solid fa-cart-shopping"></i>
                                                 <div class="Header_nocart">
                                                     <img class="Header_nocart-img" src="/ASSET/IMG/no_cart.png" alt="anh">
@@ -101,18 +101,18 @@
                                             }
                                             else{
                                                 echo'
-                                                <a href="../authencation/login.php" class="Header_center_signiu-signin">Đăng nhập</a>';                                               
+                                                <a href="authencation/login.php" class="Header_center_signiu-signin">Đăng nhập</a>';                                               
                                             }
                                             ?>
                                         
                                             <?php
                                             if(isset($_SESSION["log-out"])){
                                                 echo'
-                                                <a href="../authencation/login.php" class="Header_center_signiu-register">'.$_SESSION["log-out"].'</a>';
+                                                <a href="authencation/login.php" class="Header_center_signiu-register">'.$_SESSION["log-out"].'</a>';
                                             }
                                             else{
                                                 echo'
-                                                <a href="../authencation/register.php" class="Header_center_signiu-register">Đăng ký</a>';
+                                                <a href="authencation/register.php" class="Header_center_signiu-register">Đăng ký</a>';
                                             }
                                             ?>
                                         
@@ -125,14 +125,14 @@
             <?php
                 if(isset($_SESSION['role']) && $_SESSION['role']=="3"){
                     echo'
-                        <a href="../bookManager/bookView.php">
+                        <a href="bookManager/bookView.php">
                             <button  class="backManager">VỀ TRANG QUẢN LÝ</button>
                         </a>
                     ';
                 }
                 else if(isset($_SESSION['role']) && $_SESSION['role']=="1"){
                     echo'
-                        <a href="../userManager/userView.php">
+                        <a href="userManager/userView.php">
                             <button  class="backManager">VỀ TRANG QUẢN LÝ</button>
                         </a>
                     ';
